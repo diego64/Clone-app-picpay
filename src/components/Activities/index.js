@@ -28,7 +28,7 @@ export default function Activities() {
     return(
         <Container>
             <Header>
-                <Title>Ativiades</Title>
+                <Title>Atividades</Title>
             </Header>
 
             <Card>
