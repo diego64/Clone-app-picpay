@@ -23,7 +23,9 @@ export default function Setting() {
               <SectionList 
                 sections={[
                    {title: 'Para o meu negócio', data: ['PicPay PRO', 'Para estabelecimentos', 'Venda por assiantura']},
-                   {title: 'Configurações', data: ['Usar digital para pagar', 'Alterar senha', 'Privacidade', 'Notificações', 'Sair']},
+                   {title: 'Configurações', data: ['Usar digital para pagar', 'Alterar senha', 'Privacidade', 'Notificações', 'Contas Vinculadas']},
+                   {title: 'Geral', data: ['Precisa de ajuda ?', 'Sobre o PicPay', 'Desativar a minha conta']},
+                   {title: 'Sair', data: ['Sair da conta @diegoferreira', 'Sair de todas as contas']},
                 ]} 
             renderItem={({item}) => <Text style={styles.item}>{item}</Text>}
             renderSectionHeader={({section}) => <Text style={styles.sectionHeader}>{section.title}</Text>}
@@ -58,5 +60,5 @@ const styles = StyleSheet.create({
         paddingBottom: 2,
         fontSize: 22,
         fontWeight: 'bold'
-    }
+    },
 })

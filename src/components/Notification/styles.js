@@ -1,16 +1,18 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
-    margin-top: 25px;
-    padding: 0 16px;    
+export const Wrapper = styled.SafeAreaView`
+    background: #000;
+    flex: 1;
 `;
 
-export const Header = styled.View``;
+export const Container = styled.ScrollView``;
 
-export const Title = styled.Text`
-    color: #FFF;    
-    font-size: 18px;
-    font-weight: bold;
+export const Header = styled.View`
+  height: 50px;
+  padding: 0 16px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const Card = styled.View`
@@ -43,7 +45,7 @@ export const CardBody = styled.View`
 
 export const UserName = styled.Text`
   color: #FFF;
-  font-size: 20px;
+  font-size: 15px;
 `;
 
 export const CardFooter = styled.View`
@@ -58,6 +60,12 @@ export const Details = styled.View`
 `;
 
 export const Value = styled.Text`
+  color: #10C86E;
+  font-size: 14px;
+  font-weight: bold;
+`;
+
+export const ValueNegative = styled.Text`
   color: #FF214F;
   font-size: 14px;
   font-weight: bold;
@@ -72,7 +80,7 @@ export const Divider = styled.View`
 
 export const Date = styled.Text`
   color: #FFF;
-  margin-left: 5px;
+  margin-left: 10px;
 `;
 
 export const Actions = styled.View`
@@ -89,3 +97,5 @@ export const OptionLabel = styled.Text`
   font-size: 14px;
   margin-left: 5px;
 `;
+
+export const Img = styled.Image``;

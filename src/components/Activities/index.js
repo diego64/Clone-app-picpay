@@ -1,5 +1,5 @@
 import React from 'react';
-import { Feather, MaterialCommunityIcons, AntDesign  } from '@expo/vector-icons';
+import { Feather, MaterialCommunityIcons, AntDesign } from '@expo/vector-icons';
 
 import { 
     Container,
@@ -61,14 +61,11 @@ export default function Activities() {
                         </Option>
 
                         <Option>
-                            <AntDesign name="hearto" size={14} color="#FFF" />
+                            <AntDesign name="heart" size={14} color="#FFF" />
                             <OptionLabel> 1 </OptionLabel>
                         </Option>
                     </Actions>
-                    
                 </CardFooter>
-
-
             </Card>
         </Container>
     );
