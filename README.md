@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esse projeto tem como o objetivo clonar 5 telas do aplicativo mobile da Picpay. 
 
-## ⌛ Desenvolvimento
+## ⌛ Desenvolvimento 
 
 O projeto foi divido em 4 partes: 
 
